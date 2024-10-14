@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
-# this scripts indefinetely writes to a file and pauses for 2 seconds
-
-while true; do
-    echo "I am alive!" >> /tmp/my_process
-    sleep 2
+#Indefinitely writes I am alive! to the file /tmp/my_process and pause for 2 seconds in between
+while true
+do
+	echo "I am alive!" >> /tmp/my_process
+	sleep 2
 done
